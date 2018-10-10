@@ -18,5 +18,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::buttonPressed()
 {
-    qDebug() << "Hello, world!";
+    // qDebug() << "Hello, world!";
+    //QPushButton *button = (QPushButton*)sender();
+    ui->label->setText("Hello, world!");
 }
